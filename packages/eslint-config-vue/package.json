@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fiahfy/eslint-config": "^0.0.3",
-    "eslint-plugin-vue": "^6.2.2"
+    "eslint-plugin-vue": "^7.0.0-beta.1"
   },
   "files": [
     "index.js"
@@ -31,6 +31,6 @@
     "url": "git+https://github.com/fiahfy/eslint-config.git"
   },
   "peerDependencies": {
-    "eslint": "^7.6.0"
+    "eslint": "^7.0.0"
   }
 }
