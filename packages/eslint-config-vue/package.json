@@ -11,7 +11,7 @@
     "url": "https://github.com/fiahfy/eslint-config/issues"
   },
   "dependencies": {
-    "@fiahfy/eslint-config": "../eslint-config",
+    "@fiahfy/eslint-config": "^0.0.1",
     "eslint-plugin-vue": "^6.2.2"
   },
   "files": [
@@ -23,8 +23,14 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fiahfy/eslint-config.git"
+  },
+  "peerDependencies": {
+    "eslint": "^7.6.0"
   }
 }
