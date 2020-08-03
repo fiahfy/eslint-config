@@ -1,0 +1,30 @@
+{
+  "name": "@fiahfy/eslint-config-vue",
+  "description": "My ESLint config for Vue.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "fiahfy",
+    "email": "d.fiahfy@gmail.com",
+    "url": "https://fiahfy.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/fiahfy/eslint-config/issues"
+  },
+  "dependencies": {
+    "@fiahfy/eslint-config": "../eslint-config",
+    "eslint-plugin-vue": "^6.2.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/fiahfy/eslint-config/packages/eslint-config-vue",
+  "keywords": [
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiahfy/eslint-config.git"
+  }
+}

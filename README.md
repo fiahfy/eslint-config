@@ -1,0 +1,57 @@
+# eslint-config
+
+![badge](https://github.com/fiahfy/eslint-config/workflows/Node.js%20Package/badge.svg)
+
+> My ESLint configs including typescript and prettier.
+
+## Installation
+
+```bash
+npm install @fiahfy/eslint-config -D
+```
+
+## Usage
+
+```bash
+npm install @fiahfy/eslint-config -D
+```
+
+Then, in your `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ["@fiahfy"],
+};
+```
+
+### Vue.js
+
+This is extended from `@fiahfy/eslint-config`.
+
+```bash
+npm install @fiahfy/eslint-config-vue -D
+```
+
+Then, in your `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ["@fiahfy/vue"],
+};
+```
+
+### Nuxt.js
+
+This is extended from `@fiahfy/eslint-config-vue`.
+
+```bash
+npm install @fiahfy/eslint-config-nuxt -D
+```
+
+Then, in your `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ["@fiahfy/nuxt"],
+};
+```

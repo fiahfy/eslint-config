@@ -1,0 +1,37 @@
+name: Node.js Package
+
+on:
+  push:
+    tags:
+      - '@fiahfy/*'
+
+jobs:
+  publish:
+    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config@')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn publish --non-interactive
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+        working-directory: ./packages/eslint-config
+
+  publish-vue:
+    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config-vue@')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn publish --non-interactive
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+        working-directory: ./packages/eslint-config-vue
+
+  publish-nuxt:
+    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config-nuxt@')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: yarn publish --non-interactive
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
+        working-directory: ./packages/eslint-config-nuxt
