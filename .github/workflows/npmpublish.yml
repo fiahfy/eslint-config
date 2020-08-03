@@ -3,11 +3,10 @@ name: Node.js Package
 on:
   push:
     tags:
-      - '@fiahfy/*'
+      - 'v*'
 
 jobs:
   publish:
-    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config@')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,35 +14,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn publish --non-interactive
+      - run: yarn
+      - run: yarn lerna publish from-package
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
-        working-directory: ./packages/eslint-config
-
-  publish-vue:
-    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config-vue@')
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: yarn publish --non-interactive
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
-        working-directory: ./packages/eslint-config-vue
-
-  publish-nuxt:
-    if: startsWith(github.ref, 'refs/tags/@fiahfy/eslint-config-nuxt@')
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/
-      - run: yarn publish --non-interactive
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
-        working-directory: ./packages/eslint-config-nuxt

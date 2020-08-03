@@ -4,5 +4,14 @@
   "useWorkspaces": true,
   "packages": [
     "packages/*"
-  ]
+  ],
+  "command": {
+    "version": {
+      "noGitTagVersion": true,
+      "noPush": true
+    },
+    "publish": {
+      "yes": true
+    }
+  }
 }
