@@ -24,6 +24,22 @@ module.exports = {
 };
 ```
 
+### React.js
+
+This is extended from `@fiahfy/eslint-config`.
+
+```bash
+npm install @fiahfy/eslint-config-react -D
+```
+
+Then, in your `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ["@fiahfy/react"],
+};
+```
+
 ### Vue.js
 
 This is extended from `@fiahfy/eslint-config`.
