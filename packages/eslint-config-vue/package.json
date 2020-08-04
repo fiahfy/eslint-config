@@ -29,8 +29,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fiahfy/eslint-config.git"
-  },
-  "peerDependencies": {
-    "eslint": "^7.0.0"
   }
 }
