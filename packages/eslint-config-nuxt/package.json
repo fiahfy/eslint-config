@@ -1,7 +1,7 @@
 {
   "name": "@fiahfy/eslint-config-nuxt",
   "description": "My ESLint config for Nuxt.js",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": {
     "name": "fiahfy",
     "email": "d.fiahfy@gmail.com",
@@ -11,7 +11,7 @@
     "url": "https://github.com/fiahfy/eslint-config/issues"
   },
   "dependencies": {
-    "@fiahfy/eslint-config-vue": "^0.0.4",
+    "@fiahfy/eslint-config-vue": "^0.0.5",
     "eslint-plugin-nuxt": "^1.0.0"
   },
   "files": [
