@@ -3,6 +3,7 @@
   "devDependencies": {
     "eslint": "^7.6.0",
     "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   },
   "private": true,
