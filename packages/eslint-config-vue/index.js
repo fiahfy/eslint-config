@@ -7,4 +7,13 @@ module.exports = {
     'plugin:vue/recommended',
     'prettier/vue',
   ],
+  overrides: [
+    {
+      files: ['*.vue'],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        'prettier/@typescript-eslint',
+      ],
+    },
+  ],
 }
