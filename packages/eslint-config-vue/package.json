@@ -1,7 +1,7 @@
 {
   "name": "@fiahfy/eslint-config-vue",
   "description": "My ESLint config for Vue.js",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "fiahfy",
     "email": "d.fiahfy@gmail.com",
@@ -11,7 +11,7 @@
     "url": "https://github.com/fiahfy/eslint-config/issues"
   },
   "dependencies": {
-    "@fiahfy/eslint-config": "^0.0.6",
+    "@fiahfy/eslint-config": "^0.0.7",
     "eslint-plugin-vue": "^6.2.2"
   },
   "files": [
