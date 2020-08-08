@@ -1,6 +1,13 @@
 module.exports = {
   extends: [
     '@fiahfy/vue',
-    'plugin:nuxt/recommended',
+  ],
+  overrides: [
+    {
+      files: ['*.vue'],
+      extends: [
+        'plugin:nuxt/recommended',
+      ],
+    },
   ],
 }
