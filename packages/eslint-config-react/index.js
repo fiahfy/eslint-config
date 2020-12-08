@@ -5,6 +5,11 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'prettier/react',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   overrides: [
     {
       files: ['*.tsx'],

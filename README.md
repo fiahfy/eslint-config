@@ -56,6 +56,22 @@ module.exports = {
 }
 ```
 
+### Next.js
+
+This is extended from `@fiahfy/eslint-config-react`.
+
+```bash
+npm install @fiahfy/eslint-config-next -D
+```
+
+Then, in your `.eslintrc.js`
+
+```js
+module.exports = {
+  extends: ["@fiahfy/next"],
+}
+```
+
 ### Nuxt.js
 
 This is extended from `@fiahfy/eslint-config-vue`.
