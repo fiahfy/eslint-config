@@ -26,7 +26,7 @@ module.exports = {
 
 ### React.js
 
-This is extended from `@fiahfy/eslint-config`.
+This config is extended from `@fiahfy/eslint-config`.
 
 ```bash
 npm install @fiahfy/eslint-config-react -D
@@ -42,7 +42,7 @@ module.exports = {
 
 ### Vue.js
 
-This is extended from `@fiahfy/eslint-config`.
+This config is extended from `@fiahfy/eslint-config`.
 
 ```bash
 npm install @fiahfy/eslint-config-vue -D
@@ -58,7 +58,7 @@ module.exports = {
 
 ### Next.js
 
-This is extended from `@fiahfy/eslint-config-react`.
+This config is extended from `@fiahfy/eslint-config-react`.
 
 ```bash
 npm install @fiahfy/eslint-config-next -D
@@ -74,7 +74,7 @@ module.exports = {
 
 ### Nuxt.js
 
-This is extended from `@fiahfy/eslint-config-vue`.
+This config is extended from `@fiahfy/eslint-config-vue`.
 
 ```bash
 npm install @fiahfy/eslint-config-nuxt -D
