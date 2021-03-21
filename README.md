@@ -20,7 +20,7 @@ Then, in your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: ["@fiahfy"],
+  extends: ['@fiahfy'],
 }
 ```
 
@@ -36,7 +36,7 @@ Then, in your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: ["@fiahfy/react"],
+  extends: ['@fiahfy/react'],
 }
 ```
 
@@ -52,7 +52,7 @@ Then, in your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: ["@fiahfy/vue"],
+  extends: ['@fiahfy/vue'],
 }
 ```
 
@@ -68,7 +68,7 @@ Then, in your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: ["@fiahfy/next"],
+  extends: ['@fiahfy/next'],
 }
 ```
 
@@ -84,6 +84,6 @@ Then, in your `.eslintrc.js`
 
 ```js
 module.exports = {
-  extends: ["@fiahfy/nuxt"],
+  extends: ['@fiahfy/nuxt'],
 }
 ```
