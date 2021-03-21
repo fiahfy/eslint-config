@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fiahfy/eslint-config": "^0.0.11",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
   "files": [

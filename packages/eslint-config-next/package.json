@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fiahfy/eslint-config-react": "^0.0.11",
-    "@next/eslint-plugin-next": "^10.0.4"
+    "@next/eslint-plugin-next": "^10.0.9"
   },
   "files": [
     "index.js"
