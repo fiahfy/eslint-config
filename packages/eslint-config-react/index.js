@@ -1,22 +1,18 @@
 module.exports = {
   extends: [
-    '@fiahfy',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'prettier/react',
+    "@fiahfy",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
   ],
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
   overrides: [
     {
-      files: ['*.tsx'],
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
-      ],
+      files: ["*.tsx"],
+      extends: ["plugin:@typescript-eslint/recommended"],
     },
   ],
-}
+};
