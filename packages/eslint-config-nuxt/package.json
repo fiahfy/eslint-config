@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@fiahfy/eslint-config-vue": "^0.0.15",
-    "eslint-plugin-nuxt": "^3.0.0"
+    "eslint-plugin-nuxt": "^3.1.0"
   },
   "files": [
     "index.js"

@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     '@fiahfy',
     'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
   ],
   settings: {
