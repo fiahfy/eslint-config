@@ -1,6 +1,6 @@
 {
   "name": "@fiahfy/eslint-config-vue",
-  "description": "My ESLint config for Vue.js",
+  "description": "My ESLint config for Vue.js.",
   "version": "0.0.17",
   "author": {
     "name": "fiahfy",

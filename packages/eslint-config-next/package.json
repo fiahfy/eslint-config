@@ -1,6 +1,6 @@
 {
   "name": "@fiahfy/eslint-config-next",
-  "description": "My ESLint config for Next.js",
+  "description": "My ESLint config for Next.js.",
   "version": "0.0.17",
   "author": {
     "name": "fiahfy",

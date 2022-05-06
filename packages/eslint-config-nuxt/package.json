@@ -1,6 +1,6 @@
 {
   "name": "@fiahfy/eslint-config-nuxt",
-  "description": "My ESLint config for Nuxt.js",
+  "description": "My ESLint config for Nuxt.js.",
   "version": "0.0.17",
   "author": {
     "name": "fiahfy",

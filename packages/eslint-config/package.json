@@ -1,6 +1,6 @@
 {
   "name": "@fiahfy/eslint-config",
-  "description": "My ESLint config",
+  "description": "My ESLint config.",
   "version": "0.0.17",
   "author": {
     "name": "fiahfy",

@@ -1,6 +1,6 @@
 {
   "name": "@fiahfy/eslint-config-react",
-  "description": "My ESLint config for React.js",
+  "description": "My ESLint config for React.js.",
   "version": "0.0.17",
   "author": {
     "name": "fiahfy",
