@@ -1,7 +1,7 @@
 {
   "name": "@fiahfy/eslint-config-react",
   "description": "My ESLint config for React.js.",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "author": {
     "name": "fiahfy",
     "email": "d.fiahfy@gmail.com",
@@ -11,7 +11,7 @@
     "url": "https://github.com/fiahfy/eslint-config/issues"
   },
   "dependencies": {
-    "@fiahfy/eslint-config": "^0.0.17",
+    "@fiahfy/eslint-config": "^0.0.18",
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
