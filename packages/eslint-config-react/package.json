@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@fiahfy/eslint-config": "^0.0.17",
-    "eslint-plugin-react": "^7.29.4",
-    "eslint-plugin-react-hooks": "^4.5.0"
+    "eslint-plugin-react": "^7.31.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   },
   "files": [
     "index.js"
