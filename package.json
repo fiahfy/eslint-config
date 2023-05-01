@@ -1,14 +1,21 @@
 {
   "name": "eslint-config",
   "devDependencies": {
-    "eslint": "^8.23.0",
-    "lerna": "^5.4.3",
-    "prettier": "^2.7.1",
-    "typescript": "^4.8.2"
+    "@fiahfy/prettier-config": "^0.0.3",
+    "eslint": "^8.39.0",
+    "lerna": "^6.6.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.0.4"
   },
   "private": true,
   "scripts": {
     "lint": "prettier -c --ignore-path .gitignore .",
+    "test": "npm run lint && npm run test:eslint-config && npm run test:eslint-config-next && npm run test:eslint-config-nuxt && npm run test:eslint-config-react && npm run test:eslint-config-vue",
+    "test:eslint-config": "eslint --ext .ts -c packages/eslint-config/index.js test",
+    "test:eslint-config-next": "eslint --ext .ts -c packages/eslint-config-next/index.js test",
+    "test:eslint-config-nuxt": "eslint --ext .ts -c packages/eslint-config-nuxt/index.js test",
+    "test:eslint-config-react": "eslint --ext .ts -c packages/eslint-config-react/index.js test",
+    "test:eslint-config-vue": "eslint --ext .ts -c packages/eslint-config-vue/index.js test",
     "verup": "lerna version --no-push"
   },
   "workspaces": [
