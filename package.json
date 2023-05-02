@@ -2,20 +2,19 @@
   "name": "eslint-config",
   "devDependencies": {
     "@fiahfy/prettier-config": "^0.0.3",
+    "@lerna-lite/cli": "^2.1.0",
+    "@lerna-lite/publish": "^2.1.0",
+    "@lerna-lite/version": "^2.1.0",
     "eslint": "^8.39.0",
-    "lerna": "^6.6.1",
     "prettier": "^2.8.8",
+    "turbo": "^1.9.3",
     "typescript": "^5.0.4"
   },
   "private": true,
   "scripts": {
-    "lint": "prettier -c --ignore-path .gitignore .",
-    "test": "npm run lint && npm run test:eslint-config && npm run test:eslint-config-next && npm run test:eslint-config-nuxt && npm run test:eslint-config-react && npm run test:eslint-config-vue",
-    "test:eslint-config": "eslint --ext .ts -c packages/eslint-config/index.js test",
-    "test:eslint-config-next": "eslint --ext .ts -c packages/eslint-config-next/index.js test",
-    "test:eslint-config-nuxt": "eslint --ext .ts -c packages/eslint-config-nuxt/index.js test",
-    "test:eslint-config-react": "eslint --ext .ts -c packages/eslint-config-react/index.js test",
-    "test:eslint-config-vue": "eslint --ext .ts -c packages/eslint-config-vue/index.js test",
+    "lint": "turbo run lint",
+    "release": "lerna publish from-package --yes",
+    "test": "turbo run test",
     "verup": "lerna version --no-push"
   },
   "workspaces": [

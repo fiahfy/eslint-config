@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 16
       - run: yarn
+      - run: yarn lint
       - run: yarn test
 
   publish-npm:
@@ -29,6 +30,6 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: yarn
-      - run: yarn lerna publish from-package --yes
+      - run: yarn release
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
