@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
       - run: yarn
-      - run: yarn lint
+      - run: yarn format
       - run: yarn test
 
   publish-npm:

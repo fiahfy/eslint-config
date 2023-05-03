@@ -31,7 +31,7 @@
     "url": "git+https://github.com/fiahfy/eslint-config.git"
   },
   "scripts": {
-    "lint": "prettier -c --ignore-path .gitignore .",
+    "format": "prettier -c --ignore-path .gitignore .",
     "test": "eslint --ext .ts -c index.js test"
   }
 }
