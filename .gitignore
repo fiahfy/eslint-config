@@ -57,5 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# turbo
+.turbo
+
 # Transpiled files
 dist
